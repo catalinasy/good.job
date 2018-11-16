@@ -5,11 +5,12 @@
         background: white;
         background-image: url("CarlosProud.jpeg");
         background-repeat: no-repeat;
-        background-position: bottom 100px center;
+        background-position-y:90%;
+        background-position-x:50%;
       }
       h1 {
         position: absolute;
-        margin-top: 30px;
+        margin-top: auto;
         width: 100%;
         text-align: center;
         font-size: 333%;
@@ -24,6 +25,13 @@
         width: 100%;
         margin: 0;
       }
+
+	@media screen and (max-width: 800px)*{
+		body{
+			background-position-y: 50%; 
+		}
+	}
+
     </style>
   </head>
 
